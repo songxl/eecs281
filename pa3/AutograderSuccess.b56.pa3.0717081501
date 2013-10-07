@@ -1,0 +1,150 @@
+- - -
+Please keep in mind that the autograder does not assign grades.  Project grades
+also take style, efficiency, and other deliverables into account.  Test cases
+used for grading may be completely different than those used to evaluate trial
+submissions.
+- - -
+
+Checking for unexpected file patterns:
+
+-------------------------------------------------------------------------------
+Checking for style errors:
+
+----------------------------------------------------------------
+./sort.h
+
+Lines with more than 80 characters may not display or print well (line 15)
+Put a space after a comma or semicolon (line 21)
+Inconsistent brace style (lines 25,26)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+----------------------------------------------------------------
+./mediabrowser.cpp
+
+Put a space after a comma or semicolon (line 20)
+Inconsistent brace style (lines 15,22)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+----------------------------------------------------------------
+./p3.h
+
+Inconsistent brace style (lines 39,37)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+
+-------------------------------------------------------------------------------
+Build output:
+g++    -c -o mediabrowser.o mediabrowser.cpp
+g++ -g -pg -O3 -o sort281 mediabrowser.cpp
+
+-------------------------------------------------------------------------------
+All expected files found
+Warning: You must split your project into at least 1 header file and 2 
+  implementation files
+
+-------------------------------------------------------------------------------
+Test case A: Passed (runtime (sec) 0.134, budget 0.021)
+You measured 3.0/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case B: Passed (runtime (sec) 0.130, budget 0.021)
+You measured 3.0/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case C: Passed (runtime (sec) 0.096, budget 0.021)
+You measured 3.0/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case D: Passed (runtime (sec) 0.090, budget 0.021)
+You measured 3.0/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case E: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case F: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case G: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case H: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case I: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case J: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case K: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case L: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case M: Failed (runtime 0.473)
+Program threw signal SIGSEGV
+
+-------------------------------------------------------------------------------
+Test case N: Failed (runtime 0.529)
+Program threw signal SIGSEGV
+
+-------------------------------------------------------------------------------
+Test case O: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case P: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case Q: Failed (runtime 1.967)
+Program threw signal SIGSEGV
+
+-------------------------------------------------------------------------------
+Test case R: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case S: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case T: Program threw signal SIGABRT
+Memory Limit Exceeded
+
+-------------------------------------------------------------------------------
+You passed 4 out of 20 test cases measuring 12.0/75.0
+
+-------------------------------------------------------------------------------
+
+Evaluating test case 0
+Buggy solutions caught: 2 3 4 6 9 1 0 
+
+Evaluating test case 1
+Buggy solutions caught: 2 3 4 6 9 
+
+Evaluating test case 2
+Buggy solutions caught: 0 2 3 4 6 9 1 5 8 
+
+Caught 9 of 10 buggy solutions in 2.33333333333333 good test cases, measuring 12.3 of 20.0 effort
+
+Total points earned: coding style: NA, code: 12.0, test cases: 12.3 = 24.3

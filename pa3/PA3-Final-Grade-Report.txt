@@ -1,0 +1,23 @@
+Grader: Wang Wenshan
+Student: Song Xiaolin(b56)
+
+========================================================================
+
+========================================================================
+Code partitioned into multiple files
+
+Use of literal in code:                          -3
+sort.h:                
+-------
+    
+char title[40];
+    char genre[40];
+ char* c = new char[41];
+No wrap around lines
+
+Good code reuse
+
+Meaningful variable and function names
+
+========================================================================
+Total points earned: coding style: 2, code: 75.0, test cases: 20.0 = 97.0

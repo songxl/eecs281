@@ -1,0 +1,141 @@
+- - -
+Please keep in mind that the autograder does not assign grades.  Project grades
+also take style, efficiency, and other deliverables into account.  Test cases
+used for grading may be completely different than those used to evaluate trial
+submissions.
+- - -
+
+Checking for unexpected file patterns:
+
+-------------------------------------------------------------------------------
+Checking for style errors:
+
+----------------------------------------------------------------
+./lbs281.cpp
+
+When using new[], also use delete[] to avoid memory leaks (line 55)
+----------------------------------------------------------------
+./p2.h
+
+Lines with more than 80 characters may not display or print well (line 56)
+Put a space after a comma or semicolon (line 80)
+Inconsistent brace style (lines 189,196)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+When using new[], also use delete[] to avoid memory leaks (line 196)
+
+-------------------------------------------------------------------------------
+Build output:
+g++ -g -O3 -c lbs281.cpp p2.h
+g++ -g -O3 lbs281.o -o lbs281
+
+-------------------------------------------------------------------------------
+All expected files found
+
+-------------------------------------------------------------------------------
+Test case A: Passed (runtime (sec) 0.003, budget 0.009)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case B: Passed (runtime (sec) 0.003, budget 0.009)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case C: Passed (runtime (sec) 0.003, budget 0.008)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case D: Passed (runtime (sec) 0.004, budget 0.008)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case E: Passed (runtime (sec) 0.003, budget 0.010)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case F: Failed (runtime 0.003)
+Line: 2
+Expected: "0.63"...
+Actual  : "No r"...
+
+-------------------------------------------------------------------------------
+Test case G: Passed (runtime (sec) 0.004, budget 0.008)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case H: Passed (runtime (sec) 0.004, budget 0.005)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case I: Passed (runtime (sec) 0.021, budget 0.030)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case J: Failed (runtime 0.021)
+Line: 2
+Expected: "1.00"...
+Actual  : "No r"...
+
+-------------------------------------------------------------------------------
+Test case K: Failed (runtime 0.256)
+Line: 2
+Expected: "1.85"...
+Actual  : "No r"...
+
+-------------------------------------------------------------------------------
+Test case L: Failed (runtime 0.289)
+Line: 2
+Expected: "0.57"...
+Actual  : "No r"...
+
+-------------------------------------------------------------------------------
+Test case M: Failed (runtime 0.003)
+Line: 2
+Expected: "10.8"...
+Actual  : "No r"...
+
+-------------------------------------------------------------------------------
+Test case N: Passed (runtime (sec) 0.023, budget 0.018)
+You measured 4.8/5.4 for this test case
+
+-------------------------------------------------------------------------------
+You passed 9 out of 14 test cases measuring 47.7/75.0
+
+-------------------------------------------------------------------------------
+
+Evaluating test case 0
+Buggy solutions caught: 0 1 2 3 4 5 
+
+Evaluating test case 1
+Buggy solutions caught: 0 1 2 3 4 5 6 7 8 9 
+
+Evaluating test case 2
+Buggy solutions caught: 0 1 2 3 4 5 6 7 8 9 
+
+Evaluating test case 3
+Buggy solutions caught: 0 1 2 3 4 5 8 
+
+Evaluating test case 4
+Buggy solutions caught: 1 2 3 4 5 6 7 8 
+
+Evaluating test case 5
+Buggy solutions caught: 0 2 3 4 5 6 7 8 
+
+Evaluating test case 6
+Buggy solutions caught: 0 2 3 4 5 6 7 8 
+
+Evaluating test case 7
+Buggy solutions caught: 0 1 2 3 4 5 8 
+
+Evaluating test case 8
+Buggy solutions caught: 0 2 3 4 5 8 
+
+Evaluating test case 9
+Buggy solutions caught: 0 1 2 3 4 5 6 8 
+
+Caught 10 of 10 buggy solutions in 10 good test cases, measuring 20.0 of 20.0 effort
+
+Total points earned: coding style: NA, code: 47.7, test cases: 20.0 = 67.7

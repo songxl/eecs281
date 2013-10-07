@@ -1,0 +1,194 @@
+- - -
+Please keep in mind that the autograder does not assign grades.  Project grades
+also take style, efficiency, and other deliverables into account.  Test cases
+used for grading may be completely different than those used to evaluate trial
+submissions.
+- - -
+
+Checking for unexpected file patterns:
+
+-------------------------------------------------------------------------------
+Checking for style errors:
+
+----------------------------------------------------------------
+./crawl.h
+
+Lines with more than 80 characters may not display or print well (line 59)
+Put a space after a comma or semicolon (line 24)
+----------------------------------------------------------------
+./crawl281.cpp
+
+Lines with more than 80 characters may not display or print well (line 58)
+Put a space after a comma or semicolon (line 59)
+----------------------------------------------------------------
+./p4.h
+
+Lines with more than 80 characters may not display or print well (line 26)
+Put a space after a comma or semicolon (line 38)
+Do not mix malloc and new (lines 65,47)
+When using new[], also use delete[] to avoid memory leaks (line 65)
+
+-------------------------------------------------------------------------------
+Build output:
+g++    -c -o crawl281.o crawl281.cpp
+g++ -g -O3 -o crawl281 crawl281.cpp
+
+-------------------------------------------------------------------------------
+All expected files found
+Warning: You must split your project into at least 1 header file and 2 
+  implementation files
+
+-------------------------------------------------------------------------------
+Test case GSPEC: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GA: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GB: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GC: Passed (runtime (sec) 0.247, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GD: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GE: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GF: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GG: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case GH: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case PSPEC: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case PA: Failed (runtime 0.056)
+Line: 1
+Expected: ..."0 59"... truncated at position 39
+Actual  : ..."0 80"... truncated at position 39
+
+-------------------------------------------------------------------------------
+Test case PB: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case PC: Failed (runtime 0.424)
+Line: 1
+Expected: ..." 139"... truncated at position 10
+Actual  : ..." 190"... truncated at position 10
+
+-------------------------------------------------------------------------------
+Test case PD: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case PE: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case PF: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case PG: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case PH: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BSPEC: Passed (runtime (sec) 0.002, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BA: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BB: Passed (runtime (sec) 0.118, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BC: Passed (runtime (sec) 1.055, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BD: Passed (runtime (sec) 0.009, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BE: Failed (runtime 4.107)
+Line: 1
+Expected: ..." 10 "... truncated at position 1
+Actual  : ..." 1 1"... truncated at position 1
+
+-------------------------------------------------------------------------------
+Test case BF: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BG: Passed (runtime (sec) 0.001, budget 10.000)
+You measured 2.8/2.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case BH: Failed (runtime 0.002)
+Line: 1
+Expected: "0 3 "...
+Actual  : "0 2 "...
+
+-------------------------------------------------------------------------------
+You passed 23 out of 27 test cases measuring 63.9/75.0
+
+-------------------------------------------------------------------------------
+
+Evaluating test case 0
+Buggy solutions caught: 4 
+
+Evaluating test case 1
+Buggy solutions caught: 1 2 3 9 
+
+Evaluating test case 2
+Buggy solutions caught: 8 
+
+Evaluating test case 3
+Buggy solutions caught: 7 8 9 
+
+Evaluating test case 4
+Buggy solutions caught: 2 
+
+Evaluating test case 5
+Buggy solutions caught: 9 
+
+Evaluating test case 6
+Buggy solutions caught: 0 9 
+
+Evaluating test case 7
+Buggy solutions caught: 9 
+
+Evaluating test case 8
+Buggy solutions caught: 0 9 
+
+Evaluating test case 9
+Buggy solutions caught: 3 7 9 
+
+Caught 8 of 10 buggy solutions in 10 good test cases, measuring 20.0 of 20.0 effort
+
+Total points earned: coding style: NA, code: 63.9, test cases: 20.0 = 83.9

@@ -1,0 +1,171 @@
+- - -
+Please keep in mind that the autograder does not assign grades.  Project grades
+also take style, efficiency, and other deliverables into account.  Test cases
+used for grading may be completely different than those used to evaluate trial
+submissions.
+- - -
+
+Checking for unexpected file patterns:
+
+-------------------------------------------------------------------------------
+Checking for style errors:
+
+----------------------------------------------------------------
+./sort.h
+
+Lines with more than 80 characters may not display or print well (line 17)
+Put a space after a comma or semicolon (line 23)
+Inconsistent brace style (lines 54,44)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+----------------------------------------------------------------
+./mediabrowser.cpp
+
+Put a space after a comma or semicolon (line 57)
+When using new[], also use delete[] to avoid memory leaks (line 35)
+----------------------------------------------------------------
+./p3.h
+
+Warning: potential buffer overflow (line 17)
+	 (hackers often deliberately overflow such buffers) 
+	Use dynamically allocated memory if appropriate.
+	 ** Test your program on large inputs !
+Inconsistent brace style (lines 56,51)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+Put a space after a comma or semicolon (line 74)
+
+-------------------------------------------------------------------------------
+Build output:
+g++    -c -o mediabrowser.o mediabrowser.cpp
+g++ -g -O3 -o sort281 mediabrowser.cpp
+
+-------------------------------------------------------------------------------
+All expected files found
+Warning: You must split your project into at least 1 header file and 2 
+  implementation files
+
+-------------------------------------------------------------------------------
+Test case a: Passed (runtime (sec) 0.002, budget 0.027)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case b: Passed (runtime (sec) 0.003, budget 0.027)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case c: Passed (runtime (sec) 0.003, budget 0.027)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case d: Passed (runtime (sec) 0.002, budget 0.027)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case e: Passed (runtime (sec) 0.006, budget 0.035)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case f: Passed (runtime (sec) 0.005, budget 0.035)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case g: Passed (runtime (sec) 0.006, budget 0.035)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case h: Passed (runtime (sec) 0.006, budget 0.035)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case i: Passed (runtime (sec) 0.062, budget 0.588)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case j: Passed (runtime (sec) 0.050, budget 0.516)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case k: Passed (runtime (sec) 0.060, budget 0.571)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case l: Passed (runtime (sec) 0.049, budget 0.510)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case m: Passed (runtime (sec) 0.571, budget 4.530)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case n: Passed (runtime (sec) 0.694, budget 4.584)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case o: Passed (runtime (sec) 0.518, budget 4.529)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case p: Passed (runtime (sec) 0.515, budget 4.498)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case q: Passed (runtime (sec) 0.057, budget 1.154)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case r: Passed (runtime (sec) 0.057, budget 0.751)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case s: Passed (runtime (sec) 0.047, budget 0.459)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+Test case t: Passed (runtime (sec) 0.047, budget 0.480)
+You measured 3.8/3.8 for this test case
+
+-------------------------------------------------------------------------------
+You passed 20 out of 20 test cases measuring 75.0/75.0
+
+-------------------------------------------------------------------------------
+
+Evaluating test case 0
+Buggy solutions caught: 2 3 4 6 9 1 0 
+
+Evaluating test case 1
+Buggy solutions caught: 2 3 4 6 9 1 5 7 8 0 
+
+Evaluating test case 2
+Buggy solutions caught: 2 3 4 6 9 1 5 7 8 0 
+
+Evaluating test case 3
+Buggy solutions caught: 0 2 3 4 6 9 1 5 7 8 
+
+Evaluating test case 4
+Buggy solutions caught: 0 2 3 4 6 9 1 5 7 8 
+
+Evaluating test case 5
+Buggy solutions caught: 2 3 4 6 9 1 5 7 8 0 
+
+Evaluating test case 6
+Buggy solutions caught: 2 3 4 6 9 1 5 7 8 
+
+Evaluating test case 7
+Buggy solutions caught: 2 3 4 6 9 1 5 7 0 
+
+Evaluating test case 8
+Buggy solutions caught: 2 3 4 6 9 1 5 7 8 0 
+
+Evaluating test case 9
+Buggy solutions caught: 2 3 4 6 9 1 5 7 8 0 
+
+Caught 10 of 10 buggy solutions in 10 good test cases, measuring 20.0 of 20.0 effort
+
+Total points earned: coding style: NA, code: 75.0, test cases: 20.0 = 95.0

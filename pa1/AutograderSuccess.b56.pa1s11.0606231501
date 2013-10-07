@@ -1,0 +1,186 @@
+- - -
+Please keep in mind that the autograder does not assign grades.  Project grades
+also take style, efficiency, and other deliverables into account.  Test cases
+used for grading may be completely different than those used to evaluate trial
+submissions.
+- - -
+
+Checking for unexpected file patterns:
+
+-------------------------------------------------------------------------------
+Checking for style errors:
+
+Found 2185 tokens in source
+----------------------------------------------------------------
+./project1.cpp
+
+Lines with more than 80 characters may not display or print well (line 14)
+Put a space after a comma or semicolon (line 14)
+Inconsistent brace style (lines 24,27)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+Right braces should appear on a line by themselves (line 81)
+	unless they appear in the following forms "} else {",
+	do {
+	...
+	} while();,
+	or to declare a variable of a type just defined
+Avoid putting multiple statements on a single line (line 282)
+	For loops are a notable exception to this rule.
+----------------------------------------------------------------
+./p1.h
+
+Lines with more than 80 characters may not display or print well (line 15)
+Inconsistent brace style (lines 13,4)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+Put a space after a comma or semicolon (line 15)
+Right braces should appear on a line by themselves (line 27)
+	unless they appear in the following forms "} else {",
+	do {
+	...
+	} while();,
+	or to declare a variable of a type just defined
+
+-------------------------------------------------------------------------------
+Build output:
+g++ -g -c project1.cpp p1.h
+g++ -g project1.o -o path281
+
+-------------------------------------------------------------------------------
+All expected files found
+Warning: You must split your project into at least 3 header files and 1 
+  implementation file
+
+-------------------------------------------------------------------------------
+Test case QA: Passed (runtime (sec) 0.002, budget 0.009)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QB: Failed (runtime 0.001)
+Line: 8
+Expected: "Wb W"...
+Actual  : "#bre"
+
+-------------------------------------------------------------------------------
+Test case QC: Failed (runtime 0.005)
+Line: 11
+Expected: ..."dddn"... truncated at position 6
+Actual  : ..."ddn "... truncated at position 6
+
+-------------------------------------------------------------------------------
+Test case QD: Failed (runtime 10.000)
+Time Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case QE: Passed (runtime (sec) 0.002, budget 0.005)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QF: Passed (runtime (sec) 0.280, budget 1.000)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QG: Failed (runtime 10.000)
+Time Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case QH: Passed (runtime (sec) 0.038, budget 0.130)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QI: Passed (runtime (sec) 0.103, budget 0.450)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QJ: Passed (runtime (sec) 0.276, budget 0.600)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QK: Passed (runtime (sec) 0.054, budget 0.110)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QL: Passed (runtime (sec) 0.005, budget 0.006)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QM: Passed (runtime (sec) 0.000, budget 0.006)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case QN: Failed (runtime 0.000)
+Program threw signal SIGSEGV
+
+-------------------------------------------------------------------------------
+Test case SA: Passed (runtime (sec) 0.004, budget 0.008)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SB: Failed (runtime 0.001)
+Line: 8
+Expected: "WbxW"...
+Actual  : "#bxx"...
+
+-------------------------------------------------------------------------------
+Test case SC: Failed (runtime 0.004)
+Line: 14
+Expected: "nxxx"...
+Actual  : "#Xxx"...
+
+-------------------------------------------------------------------------------
+Test case SD: Failed (runtime 10.000)
+Time Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case SE: Passed (runtime (sec) 0.000, budget 0.006)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SF: Passed (runtime (sec) 0.343, budget 0.900)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SG: Failed (runtime 10.000)
+Time Limit Exceeded
+
+-------------------------------------------------------------------------------
+Test case SH: Passed (runtime (sec) 0.030, budget 0.120)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SI: Passed (runtime (sec) 0.170, budget 0.460)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SJ: Passed (runtime (sec) 0.441, budget 0.800)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SK: Passed (runtime (sec) 0.047, budget 0.080)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SL: Passed (runtime (sec) 0.002, budget 0.006)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SM: Passed (runtime (sec) 0.001, budget 0.005)
+You measured 2.7/2.7 for this test case
+
+-------------------------------------------------------------------------------
+Test case SN: Failed (runtime 0.001)
+Program threw signal SIGSEGV
+
+-------------------------------------------------------------------------------
+You passed 18 out of 28 test cases measuring 48.2/75.0
+
+-------------------------------------------------------------------------------
+
+Caught 0 of 10 buggy solutions measuring 0.0 of 20.0 effort

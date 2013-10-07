@@ -1,0 +1,28 @@
+Grader: Zhu Yan
+Student: Song Xiaolin (b56)
+
+========================================================================
+Hashing implemented
+k-d tree implemented
+
+
+
+
+========================================================================
+Code partitioned into multiple files
+
+Use of literal in code   -3
+    char fir[40],longi[40], name[40], tag[40], clat[40], clon[40], cradius[40];
+    while(cin.good()&& Firstch!= "@" && Firstch != "r")
+        if (Firstch == "@")
+Wrap around lines
+                if((targetslot->loc->latitude == lat) && (targetslot->loc->longitude == longi))   -1
+    void search_helper(Kdleaf * & root, int disc, int &TreeFlag, double min[], double max[])      -1
+	            if ((root->floc[(disc+1) % dim] >= min[(disc+1) % dim]) && (root->floc[(disc+1) % dim] <= max[(disc+1) % dim]))  -1
+ 
+Good code reuse
+
+Meaningful variable and function names
+
+========================================================================
+Total points earned: coding style: 0, code: 75.0, test cases: 20.0 = 95.0

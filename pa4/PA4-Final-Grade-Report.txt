@@ -1,0 +1,9 @@
+Grader: Sugih Jamin
+Student: Song Xiaolin (b56)
+
+========================================================================
+
+Nice clean code.  Good job.
+
+========================================================================
+Total points earned: coding style: 5, code: 64.8, test cases: 20.0 = 89.8

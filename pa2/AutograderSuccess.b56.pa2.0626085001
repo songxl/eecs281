@@ -1,0 +1,158 @@
+- - -
+Please keep in mind that the autograder does not assign grades.  Project grades
+also take style, efficiency, and other deliverables into account.  Test cases
+used for grading may be completely different than those used to evaluate trial
+submissions.
+- - -
+
+Checking for unexpected file patterns:
+
+-------------------------------------------------------------------------------
+Checking for style errors:
+
+----------------------------------------------------------------
+./lbs281.cpp
+
+Put a space after a comma or semicolon (line 37)
+Inconsistent brace style (lines 45,51)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+When using new[], also use delete[] to avoid memory leaks (line 55)
+----------------------------------------------------------------
+./p2.h
+
+Lines with more than 80 characters may not display or print well (line 79)
+Put a space after a comma or semicolon (line 82)
+Inconsistent brace style (lines 92,96)
+	Choose between the following two styles and be consistent:
+	if ( ... ) {
+	or
+	if ( ... )
+	{
+When using new[], also use delete[] to avoid memory leaks (line 233)
+
+-------------------------------------------------------------------------------
+Build output:
+g++ -g -O3 -c lbs281.cpp p2.h
+g++ -g -O3 lbs281.o -o lbs281
+
+-------------------------------------------------------------------------------
+All expected files found
+
+-------------------------------------------------------------------------------
+Test case A: Passed (runtime (sec) 0.003, budget 0.009)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case B: Passed (runtime (sec) 0.003, budget 0.009)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case C: Failed (runtime 0.003)
+Line: 7
+Expected: ...".260"... truncated at position 2
+Actual  : ...".256"... truncated at position 2
+
+-------------------------------------------------------------------------------
+Test case D: Passed (runtime (sec) 0.004, budget 0.008)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case E: Failed (runtime 0.003)
+Line: 14
+Expected: "65.6"...
+Actual  : "51.6"...
+
+-------------------------------------------------------------------------------
+Test case F: Failed (runtime 0.004)
+Line: 20
+Expected: ..."0.91"... truncated at position 1
+Actual  : ..."0.84"... truncated at position 1
+
+-------------------------------------------------------------------------------
+Test case G: Failed (runtime 0.004)
+Line: 5
+Expected: ...".182"... truncated at position 1
+Actual  : ...".154"... truncated at position 1
+
+-------------------------------------------------------------------------------
+Test case H: Passed (runtime (sec) 0.004, budget 0.005)
+You measured 5.4/5.4 for this test case
+
+-------------------------------------------------------------------------------
+Test case I: Failed (runtime 0.021)
+Line: 29
+Expected: "43.0"...
+Actual  : "42.9"...
+
+-------------------------------------------------------------------------------
+Test case J: Failed (runtime 0.021)
+Line: 11
+Expected: "7.93"...
+Actual  : "3.25"...
+
+-------------------------------------------------------------------------------
+Test case K: Failed (runtime 0.258)
+Line: 9
+Expected: "2.40"...
+Actual  : "2.37"...
+
+-------------------------------------------------------------------------------
+Test case L: Failed (runtime 0.301)
+Line: 2
+Expected: ...".577"... truncated at position 1
+Actual  : ...".547"... truncated at position 1
+
+-------------------------------------------------------------------------------
+Test case M: Failed (runtime 0.003)
+Line: 2
+Expected: "10.8"...
+Actual  : "8.31"...
+
+-------------------------------------------------------------------------------
+Test case N: Failed (runtime 0.023)
+Line: 98
+Expected: ...".126"... truncated at position 2
+Actual  : ...".118"... truncated at position 2
+
+-------------------------------------------------------------------------------
+You passed 4 out of 14 test cases measuring 21.4/75.0
+
+-------------------------------------------------------------------------------
+
+Evaluating test case 0
+Buggy solutions caught: 0 1 2 3 4 5 
+
+Evaluating test case 1
+Buggy solutions caught: 0 1 2 3 4 5 6 7 8 9 
+
+Evaluating test case 2
+Buggy solutions caught: 0 1 2 3 4 5 6 7 8 9 
+
+Evaluating test case 3
+Buggy solutions caught: 0 1 2 3 4 5 8 
+
+Evaluating test case 4
+Buggy solutions caught: 1 2 3 4 5 6 7 8 
+
+Evaluating test case 5
+Buggy solutions caught: 0 2 3 4 5 6 7 8 
+
+Evaluating test case 6
+Buggy solutions caught: 
+
+Evaluating test case 7
+Buggy solutions caught: 0 1 2 3 4 5 8 
+
+Evaluating test case 8
+Buggy solutions caught: 0 2 3 4 5 8 
+
+Evaluating test case 9
+Buggy solutions caught: 0 1 2 3 4 5 6 8 
+
+Caught 10 of 10 buggy solutions in 9 good test cases, measuring 19.0 of 20.0 effort
+
+Total points earned: coding style: NA, code: 21.4, test cases: 19.0 = 40.4
