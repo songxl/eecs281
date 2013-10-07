@@ -1,0 +1,15 @@
+6
+2
+>WWWWW
+I    W
+>   WW
+W    W
+W    W
+WWWWWW
+#level2
+     W
+<    W
+    WW
+X    <
+     W
+WWWWWW

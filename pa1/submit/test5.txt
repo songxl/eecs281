@@ -1,0 +1,29 @@
+8
+3
+#level 1
+WWWWWWWW
+  W    W
+WX  W  W
+W   >  W
+  W   WW
+WW     W
+W      W
+W  W WWW
+#level 2
+WWWW W W
+WW    >W
+W   W  W
+W    W W
+    WW>W
+W   W WW
+    W <W
+WW  W WW
+#level 3
+WWWW  WW
+W      W
+W  W   W
+WIW  WWW
+W  <W  W
+W   W< W
+W  W WWW
+WWWWW WW

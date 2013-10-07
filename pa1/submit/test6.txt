@@ -1,0 +1,59 @@
+7
+7
+#The test
+#level 1
+WWWWWWW
+W     W
+W   W W
+W>W   W
+W     W
+W     W
+WWWWWWW
+#level 2
+WWWWWWW
+W    >W
+W W   W
+W  <W W
+WW    W
+W  X  W
+WWWWWWW
+#level 3
+WWWWWWW
+W  WW W
+W W   W
+W   >WW
+W     W
+W<    W
+WWWWWWW
+#level 4
+WWWWWWW
+W W   W
+W>W W<W
+WWW   W
+WW    W
+W     W
+WWWWWWW
+#level 5
+WWWWWWW
+W  >  W
+W   W W
+W  W  W
+W <   W
+W  W WW
+WWWWWWW
+#level 6
+WWWWWWW
+W W   W
+W    >W
+W  W  W
+W W   W
+W<  WWW
+WWWWWWW
+#level 7
+WWWWWWW
+W IW <W
+W     W
+W  W  W
+W   W W
+W W   W
+WWWWWWW
